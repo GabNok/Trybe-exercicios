@@ -1,4 +1,10 @@
 Arquivo para aula 2.2
+trybe-skills-updades
 paciencia 
 diligencia
 controle
+=======
+unit
+css 
+bash
+master
