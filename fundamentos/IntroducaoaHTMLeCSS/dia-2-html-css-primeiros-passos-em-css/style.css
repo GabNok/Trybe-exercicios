@@ -1,0 +1,50 @@
+   /* Parte 1 CSS - Estilizando cores de texto, paragrafos e fundo */
+   h2 {
+    color: rgb(50, 118, 228);
+    font-size: 2em;
+}
+
+body {
+    background-color: aquamarine;
+    font-size: 18px;
+
+}
+
+#Nascimento {
+    background-color: bisque;
+    color: rgb(230, 20, 20);
+       
+   }
+
+
+#Formação {
+    background-color: bisque;
+    color: rgb(0, 56, 241);
+}
+
+#Curiosidade {
+    background-color: bisque;           
+    color: rgb(30, 109, 30);   
+   }
+
+.fotosurf {
+   border-style: dashed;
+}    
+
+.fotoperfil {
+   border-style: dashed;
+}
+/* Parte 2 CSS - estilizando texto geral e da lista */
+
+p {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder; 
+   font-style: italic;
+   line-height: 40px;
+   text-align: left;
+   text-decoration: underline;
+}
