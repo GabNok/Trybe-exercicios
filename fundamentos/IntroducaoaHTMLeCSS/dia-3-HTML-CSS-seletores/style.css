@@ -1,0 +1,127 @@
+   /* Parte  CSS - Estilizando cores de texto, paragrafos e fundo */
+   
+   h1 {
+      top: 18px;
+      text-align: center;
+   }
+   
+   h2 {
+    color: rgb(50, 118, 228);
+    font-size: 2em;
+}
+
+body {
+   background-color: aquamarine;
+    font-size: 18px;
+}
+
+   /* Parte CSS - estilizando fotos */
+
+.fotosurf {
+   border-style: double;
+   float: left;
+   margin-right: 15px;
+   padding: 10px 10px 10px 10px;color: red;   
+}    
+
+.fotoperfil {
+   border-style: groove;
+   float: left;
+   margin-right: 30px;
+   padding: 10px 10px 10px 10px;   
+}
+
+.fotomacae {
+   border-style: groove;
+   float: left;
+   margin-right: 15px;
+   padding: 10px 10px 10px 10px;
+   }
+
+.fotoeumedico {
+   border-style: double; 
+   float: left;
+   margin-right: 15px;
+   padding: 10px 10px 10px 10px; color: red;
+      
+}
+
+/* Parte CSS - Criando blocos */
+
+.blocomacae {
+   background-color: bisque;
+   height: 580px;
+   position: relative;
+   
+}
+
+.blocoformação {
+   background-color: rgba(5, 221, 41, 0.472);
+   height: 550px;
+   position: relative;
+
+}
+
+.blococuriosidade {
+   background-color: rgba(11, 70, 180, 0.527);
+   height: 550px;
+   position: relative;
+}
+
+.blocohabilidade {
+   background-color: rgba(102, 51, 153, 0.719);
+   height: 550px;   
+   position: relative;  
+}
+/* Parte  CSS - estilizando texto geral*/
+
+p {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+.Nascimento {
+   color: rgb(230, 20, 20);
+   position: absolute;
+   right: 300px;
+   bottom: 250px;
+   }
+
+.Formação {
+   color: rgb(0, 56, 241);
+   position: absolute;
+   right: 400px;
+   bottom: 170px;
+   
+}
+
+.Curiosidade {   
+   color: rgb(25, 231, 25);  
+   position: absolute;
+   right: 300px;
+   bottom: 220px; 
+   
+}
+
+
+/* Parte CSS estilizando lista */
+
+li {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder; 
+   font-style: italic;
+   line-height: 40px;
+   text-align: left;
+   text-decoration: underline;
+}
+
+.estilo {
+   background-color: aliceblue;
+   margin: auto;
+   
+}
+
+.Habilidade {
+   color: burlywood;
+   position: absolute;
+   left: 330px;
+}
