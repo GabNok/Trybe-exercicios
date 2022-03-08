@@ -172,7 +172,6 @@
 
 
 
-
 // loteria, comparando 2 valores - utilizando for dentro de for - podendo usar um randomizador!!!
 
 // let jogoDaniel = [7, 14, 28, 22, 37, 49];
@@ -199,15 +198,77 @@
 // for (inicialização, verificação, atualização)
 // for (let index = 0; index < jogoDaniel.length; index += 1) {
 // mostrar na tela (nome do array[nome da variável criada para for])
-    // console.log (jogoDaniel[index]);
-    // for (let index2 = 0; index2 < sorteio.length; index2++) {
-        //  sorteio[index2];
-    //     if (sorteio[index2] === jogoDaniel[index])
-    //     acertos += 1;
-    // }
-    
-}
+//     console.log (jogoDaniel[index]);
+//     for (let index2 = 0; index2 < sorteio.length; index2++) {
+//          sorteio[index2];
+//         if (sorteio[index2] === jogoDaniel[index])
+//         acertos += 1;
+//     }
+//     }
 // console.log ("jogo do Daniel: " , jogoDaniel);
 // console.log ("jogo Sorteado: " , sorteio);
 // console.log ("vc acertou " , acertos)
 
+
+
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (let index = 0; index < numbers.length; index += 1) {
+//     console.log (numbers[index]);
+// }
+
+//  let soma = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//     soma += numbers[index];
+// }
+// console.log (soma)
+
+// let media = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//      media += numbers[index];
+// }
+// media /=  numbers.length
+// if (media > 20) {
+//     console.log ("valor maior que 20")
+// } else ("valoe menor ou igual a 20")
+
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let maior = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] >maior);
+//      maior = numbers[index];
+// }
+//        console.log (maior);
+
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let impar = 0;
+// for (let index = 0; index < numbers.length; index += 1) {
+//     if (numbers[index] % 2 !== 0) {
+//         impar += 1;
+//     }
+// }
+//        console.log (impar);
+
+
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let menor = numbers[0];
+// for (let index = 1; index < numbers.length; index += 1) {
+//     if (numbers[index] < menor){
+//         menor = numbers[index];
+//     }
+     
+// }
+//        console.log (menor);
+
+
+
+// let numero = [];
+// for (let index = 0; index < 26; index += 1) {
+//      numero.push(index);
+    
+// }
+// console.log (numero)
