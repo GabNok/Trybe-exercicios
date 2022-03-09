@@ -1,0 +1,32 @@
+body {
+    background-color: blueviolet;
+}
+
+.login {
+    height: 300 px;
+ }
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    
+position: absolute;
+top: 80px;
+left: 600px;
+height: 70%;
+background-color: azure;
+text-align: center;
+padding: 50px;
+border-radius: 5%;
+width: 33%;
+}
+section:hover {
+   background-color: black;
+   
+}
+
+.final {
+    margin: 25px;
+}

@@ -1,0 +1,84 @@
+body {
+  margin: 20px auto;
+  border: 12px solid crimson;
+  font-family: monospace;
+  padding: 10px;
+  width: 70%;
+  font-size: larger;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+ul {
+  list-style: inside;
+}
+h1, h2, h3 {
+  font-size: xx-large;
+}
+
+p strong {
+  color: blueviolet;
+}
+
+p:nth-child(2) {
+  color: red;
+}
+
+.backgroundAzul {
+  background-color: aqua;
+}
+
+#m {
+  margin: 120px;
+}
+
+#p {
+  padding: 50px;
+}
+
+#wh {
+  width: 50%;
+  height: 100px;
+}
+
+#b {
+  border-radius: 20px;
+  border: 12px solid slateblue;
+}
+
+#box {
+  margin: 20px;
+  border: 10px solid red;
+}
+
+#poss {
+  margin: 20px;
+  border: 10px solid red;
+  height: 300px;
+  
+
+}
+
+.caixas {
+  
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+}
+
+#right {
+float: right;
+
+
+}
+
+#left {
+float: left;
+}
+
+
+
+

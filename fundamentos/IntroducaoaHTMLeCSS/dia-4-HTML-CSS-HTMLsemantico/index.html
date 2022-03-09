@@ -1,53 +1,90 @@
 <!DOCTYPE html>
-<html lang="pr-br">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-
-    <title>Exercício 3.4</title>
-    <style>
-        h1 {
-            text-align: center;
-            background-color: aqua;
-            height: 70px;
-            padding-top: 35px;
-
-        }
-        li {
-            display: inline;
-            margin-right: 3em;
-        } 
-        
-
-    </style>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Felipe Lima</title>
+</head>
 <body>
-    <!--insira os elementos aqui-->
-    <!-- Cabeçalho -->
-    <header>
-
-        <h1>Soco a 80km/h: Conheça o Stomatopoda </h1>
-
-    </header>
-    <nav>
-        <ul>
-            <li><a href="inicio"></a> Página inicial</li>
-            <li><a href="sobre"></a> Sobre</li>        
-            <li><a href="contato"></a> Contato</li>    
-        </ul>
-    </nav>
-    <section>
-        <article>
-            <h2>Fatos sobre o Stomatopoda</h2>
-            <p>Os estomatópodes são predadores ativos que caçam presas com o auxílio de um sentido de visão muito apurado e capaz de interpretar polarização no espectro ultravioleta e infravermelho). Apresentam uma grande variação de tamanho, que pode ir de poucos milímetros até aproximadamente 40 cm nas espécies maiores. </p>
-        
-            <p>O segundo par de patas, muito desenvolvido, é usado tanto para atacar a presa como para se defender. </p>
-
-            <p>Esses animais possuem o mais complexo sistema de visão de cores do mundo animal, pois enxergam 12 cores primárias, correspondentes aos 12 pigmentos distintos presentes em sua retina.</p>
-
-        </article>
-    </section>
+    <div class="all">
+        <header class="header">
+            <h1 class="title-main">Felipe Lima</h1>
+        </header>
+            <section class="main-menu-pic">
+                <img class="profile-pic" src="https://lionffl.github.io/trybe/portfolio/img/me.jpeg" alt="my profile picture">
+                <nav class="nav-menu">
+                    <ul>
+                        <a href="https://lionffl.github.io/trybe/portfolio/"><li>Home</li></a>
+                        <a href="#about"><li>About</li></a>
+                    </ul>
+                </nav>
+            </section>
+    
+        <main class="main">
+            <article class="content">
+                <section>
+                   <span id="about" class="title-section"> Short presentation</span>
+                    <p class="content-section">
+                      I am 33 years old and live in Brazil, Ceara, Fortaleza. I have bachelor degree in Geography (concluded in 2010) and developed my professional career on real state, land survey and engineering projects related to renewable energy and power transmission lines.</p>
+                </section>
+                <section>
+                    <span class="title-section"> IT Background</span>
+                    <p class="content-section">
+                      I started to use Internet in the late 90s and one of my first experiences was on IRC. At <a href="http://www.brasnet.org/2007/05/era-uma-vez-o-irc-brasileiro.html" target="_blank">BRASnet</a>, which was, on it's prime, one of the 10 biggest network in the world, I worked voluntary in the support team, answering questions on the official support channel (#ajuda), writting documentation to standardize the user service, manuals and developing processes to improve the customer (user) service in general.</p>
+                    <p class="content-section">Maybe not so proudly, I worked as Game Master in a Ragnarok Online Private Server and as Server Admin afterwards. However, I could learn a lot on this experience, because: 1) I had my first linux contact (Ubuntu birth), 2) started to work with SSH, FTP, domain, host and 3) the people I met still with me until nowdays in others projects.</p>
+                    <p class="content-section">In short, I have some knowledge in linux, FTP, SSH, have some experience with AWS (EC2, Route 53) and now I am studying web development at <a class="trybe" href="https://betrybe.com" target="_blank">Trybe</a>.</p>    
+                </section>
+                <section>
+                    <span class="title-section"> My goal</span>
+                    <p class="content-section">
+                      Since 2021 I decided to study and learn web development by myself. Working in technology area is my medium-long term goal and, this year (2022), I have found <a class="trybe" href="https://betrybe.com" target="_blank">Trybe</a> to help me to achieve that.  
+                </section>
+                <section>
+                    <span class="title-section"> Skills</span>
+                    <ul class="skills-list content-section">
+                        <li>Linux & bash - basic level</li>
+                        <li>Git & Github - basic level</li>
+                        <li>HTML, CSS & JavaScript - basic level</li>
+                        <li>AWS, FTP, SSH - basic level</li>
+                    </ul>
+                </section>
+            </article>
+            <aside class="right-menu"> 
+                <section class="right-menu-item">
+                    <h4>Contact</h4>
+                    <ul class="sidebar-list">
+                        <a href="https://www.linkedin.com/in/felipe-flima" target="_blank"><li>Linkedin</li></a>
+                        <a href="https://github.com/lionffl" target="_blank"><li>Github</li></a>
+                    </ul>
+                </section>
+                <section class="right-menu-item">
+                    <h4>trybe Projects</h4>
+                    <ul class="sidebar-list">
+                        <a href="https://lionffl.github.io/trybe/website-exercise/index.html" target="_blank"><li>Meet the Stomatopoda</li></a>
+                        <a href="https://lionffl.github.io/trybe/projects/html-css/index.html" target="_blank"><li>Lessons Learned</li></a>
+                    </ul>
+                </section>     
+            </aside>
+        </main>
+        <footer class="footer">
+            <nav class="footer-menu">
+                <ul>
+                   <a href="https://lionffl.github.io/trybe/portfolio/pages/disclaimer.html"><li>Disclaimer</li></a>
+                   <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank"><li>License</li></a> 
+                   <a href="https://lionffl.github.io/trybe/portfolio/pages/privacy-policy.html"><li>Privacy Policy</li></a>
+                </ul>
+            </nav>
+            <nav class="contact">
+                <ul>
+                    <a href="https://www.facebook.com/felipeliondartlima" target="_blank"><li>Facebook</li></a>
+                    <a href="https://open.spotify.com/user/liondartffl" target="_blank"><li>Spotify</li></a>
+                    <a href="https://github.com/lionffl/exercises/tree/main/javascript/projects/first" target="_blank"><li>My first "app"</li></a>
+                    <a href="https://www.hackerrank.com/lionffl" target="_blank"><li>Hacker Rank</li></a>
+                </ul>
+            </nav>
+        </footer>
+    </div>
 </body>
-
 </html>
