@@ -176,12 +176,12 @@
 
 // let jogoDaniel = [7, 14, 28, 22, 37, 49];
 
-// let numero1 = 7;
-// let numero2 = 15;
-// let numero3 = 22;
-// let numero4 = 49;
-// let numero5 = 37;
-// let numero6 = 14;
+// // let numero1 = 7;
+// // let numero2 = 15;
+// // let numero3 = 22;
+// // let numero4 = 49;
+// // let numero5 = 37;
+// // let numero6 = 14;
 
 // obs: Math.floor(Math.random() * 60) + 1;   >> gerador de número randômicos
 // let numero1 = Math.floor(Math.random() * 60) + 1;
@@ -195,9 +195,9 @@
 
 
 // let acertos = 0;
-// for (inicialização, verificação, atualização)
+// // for (inicialização, verificação, atualização)
 // for (let index = 0; index < jogoDaniel.length; index += 1) {
-// mostrar na tela (nome do array[nome da variável criada para for])
+// // mostrar na tela (nome do array[nome da variável criada para for])
 //     console.log (jogoDaniel[index]);
 //     for (let index2 = 0; index2 < sorteio.length; index2++) {
 //          sorteio[index2];
